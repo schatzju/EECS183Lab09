@@ -50,7 +50,7 @@ int main(int argc, const char * argv[]) {
     Car car3("ford", "green", 0);
 
     //create a Car array of size three with the three cars
-    Car cars[] = {car1, car2, car3};
+    Car cars[] = {car1, car1, car1};
 
 
 }
