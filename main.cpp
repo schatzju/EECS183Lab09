@@ -50,17 +50,7 @@ int main(int argc, const char * argv[]) {
     Car car3("ford", "red", 0);
 
     //create a Car array of size three with the three cars
-    Car cars[] = {car1, car2, car3};
-    
-    //create an empty Car array of size 3
-    Car carsGreen[3];
-    
-    int greenSize = transferGreenCars(cars, 3, carsGreen);
-    //loop through the second array with the green cars
-    for(int i = 0; i < greenSize; i++){
-        //for each car in that array call write on that object
-        carsGreen[i].write(cout);
-    }
+    Car cars[] = {car1, car1, car1};
 
 
 }
