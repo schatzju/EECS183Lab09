@@ -44,7 +44,6 @@ void addGreenCars(Dealership &dealer_in, Car cars[], int size){
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
     
     Car car1("ford", "red", 0);
     Car car2("ford", "green", 0);
