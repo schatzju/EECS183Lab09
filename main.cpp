@@ -49,7 +49,7 @@ int main(int argc, const char * argv[]) {
     Car car1("ford", "blue", 0);
     Car car2("something else something", "green", 0);
     Car car3("ford", "green", 0);
-    Car car4("ford", "blue, 10);
+    Car car4("toyota", "blue, 10);
 
     //create a Car array of size three with the three cars
     Car cars[] = {car1, car2, car3, car4};
