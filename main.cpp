@@ -45,12 +45,14 @@ void addGreenCars(Dealership &dealer_in, Car cars[], int size){
 int main(int argc, const char * argv[]) {
     // insert code here...
 
+    
     Car car1("ford", "blue", 0);
     Car car2("something else something", "green", 0);
     Car car3("ford", "green", 0);
+    Car car4("something", "blue, 10);
 
     //create a Car array of size three with the three cars
-    Car cars[] = {car1, car1, car1};
+    Car cars[] = {car1, car2, car3, car4};
 
 
 }
